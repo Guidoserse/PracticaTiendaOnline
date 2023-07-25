@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mi-cuenta.css">
+    <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
+    <title>Mi Cuenta</title>
+</head>
+<body>
+    <header>
+        <div class="cajas-header">
+            <img src="img/logo.png" alt="logo" width="50">
+        </div>
+        <div> <input type="text" placeholder="buscador" id="buscador">
+        </div>
+        <div id="contenido-header">
+            <a href="vistacarrito.html" id="carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li id="opcion-menu"><a href="index.html" id="link-menu">Home</a></li>
+            <li id="opcion-menu"><a href="categorias.html" id="link-menu">Categorias</a></li>
+            <li id="opcion-menu"><a href="contacto.html" id="link-menu">Contacto</a></li>
+            <li id="opcion-menu"><a href="MiCuenta.html" id="link-menu">Mi Cuenta</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contenedor-contacto">
+            <article id="nombre-apellido">
+                <img src="img/foto-perfil.jpg" alt="foto-perfil" width="100">
+                <h2>Nombre y Apellido</h2>
+            </article>
+            <article id="datos">
+                <div id="agregar">
+                    <h3>Mis direcciones</h3>
+                    <button ><a href="6-direcciones.html">Agregar</a></button>
+                </div>
+                <table id="Dtable">
+                    <tr>
+                        <th>Alias</th>
+                        <th>Direccion</th>  
+                        <th>Eliminar</th>
+
+                    </tr>
+                    <tr>
+                        <td>mi depto</td>
+                        <td>xxxxxxxxxxxxxx</td>
+                        <td><button type="button" class="eliminarRow1"><i class="fa-solid fa-trash"></i></button></td>
+
+                    </tr>
+                    <tr>
+                        <td>Casa</td>
+                        <td>xxxxxxxxxxxxxxx</td>
+                        <td><button type="button" class="btn eliminarRow2"><i class="fa-solid fa-trash"></i></button></td>
+
+                    </tr>
+                </table>
+               <!-- <div id="borrar-cont1">
+                    <a href="" id="borrar"><i class="fa-solid fa-trash"></i></a>
+                    <a href="" id="borrar2"><i class="fa-solid fa-trash"></i></a>
+                </div> -->
+             
+            </article>
+            <article id="datos-tarjeta">
+                <div id="agregar">
+                    <h3>Mis metodos de pago</h3>
+                    <button><a href="7-pagos2.html">Agregrar</a></button>
+                </div>
+                <table id="Ptable">
+                    <tr>
+                        <th>Alias</th>
+                        <th>Eliminar</th>
+                    </tr>
+                    <tr>
+                        <td>Debito VISA</td>
+                        <td><button type="button" class="btn eliminarRow3"><i class="fa-solid fa-trash"></i></button></td>
+
+                    </tr>
+                    <tr>
+                        <td>LemonCash</td>
+                        <td><button type="button" class="btn eliminarRow4"><i class="fa-solid fa-trash"></i></button></td>
+
+                    </tr>
+                </table>
+              <!--  <div id="borrar-cont2">
+                    <a href="" id="borrar3"><i class="fa-solid fa-trash"></i></a>
+                    <a href="" id="borrar4"><i class="fa-solid fa-trash"></i></a>
+                </div> -->
+               
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="elementos-footer"> 
+            <img src="img/logo.png" alt="logo" width="50">
+            <div id="box1">
+                <i class="fa-solid fa-clock"></i>
+                <p class="horarios">Lunes a Sabado de 8 a 14hs. y de 16 a 20hs.</p>
+            </div>
+            
+        </div>
+       <div id="elementos-footer"> 
+        <h4>Datos del grupo</h4>
+        <p>Sersewitz, Guido Tomas | 42.951.948</p> 
+        <p>Pereyra, Ludmila Abril | 43.049.505</p> 
+       </div>
+       <div id="elementos-footer">
+        <h4>Seguinos en</h4>
+        <a href="https://es-la.facebook.com/UnlamOficial/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/unalm.oficial/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+       </div>
+      
+    </footer>
+    <script src="js/MiCuenta.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.mapa{
+display: flex;
+justify-content: center;
+margin: 2%;
+}
+#mapa{
+    margin-top: 2%;
+}
+.contenedor-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin: 1%;
+    
+    
+}
+#contacto{
+    width: 346px;
+    width: 300px;
+    padding: 1%;
+}
+#enviar{
+    position: relative;
+    left: 205px;
+    top: 10px;
+    padding: 1%;
+}
+
+#email{
+position: relative;
+left: 28px;
+padding: 3px;
+margin: 2px;
+}
+#nombre{
+position: relative;
+left: 10px;
+padding: 3px;
+margin: 2px;
+}
+#contactoh3{
+    font-size: x-large;
+}
+#comentarios{
+    padding: 7.5px;
+}
+#b{
+    font-weight: bold;
+}

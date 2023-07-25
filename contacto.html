@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="cajas-header">
+            <img src="img/logo.png" alt="logo" width="50">
+        </div>
+        <div> <input type="text" placeholder="buscador" id="buscador">
+        </div>
+        <div id="contenido-header">
+            <a href="vistacarrito.html" id="carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header>
+             <!--MENU-->
+             <nav>
+                <ul class="menu">
+                    <li id="opcion-menu"><a href="index.html" id="link-menu">Home</a></li>
+                    <li id="opcion-menu"><a href="categorias.html" id="link-menu">Categorias</a></li>
+                    <li id="opcion-menu"><a href="contacto.html" id="link-menu">Contacto</a></li>
+                    <li id="opcion-menu"><a href="MiCuenta.html" id="link-menu">Mi Cuenta</a></li>
+                </ul>
+            </nav>
+    <main>
+        <section class="contenedor-contacto">
+            <article id="contacto">
+                <h3 id="contactoh3">Contacto</h3>
+                <form action="get">
+                    <label for="nombre" id="b">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required> <br>
+                    <label for="email" id="b">Email</label> 
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <p>Comentarios</p>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="comentarios"></textarea> <br>
+                    <input type="submit" name="enviar" id="enviar">
+                </form>
+               
+            </article>
+            <article id="contacto">
+                <h4>RYZER</h4>
+                <p><span id="b"> Direccion:</span> Florencio Varela 1903</p>
+                <p><span id="b"> Telefono:</span> 011 4480-8900</p>
+                <p><span id="b"> Horarios de atencion</span> Lunes a sabados de 7:00 a 11:00hs</p>
+                <br>
+                <p id="b">Instagram: @xxxxxx</p>
+                <p id="b">Facebook: @xxxxxx</p>
+                <p id="b">WhatsApp: xxx-xxxxx</p>
+            </article>
+        </section>
+        <section class="mapa">
+            <article id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.456632530742!2d-58.5628052!3d-34.6707576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses!2sar!4v1663684404836!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <div id="elementos-footer"> 
+            <img src="img/logo.png" alt="logo" width="50">
+            <div id="box1">
+                <i class="fa-solid fa-clock"></i>
+                <p class="horarios">Lunes a Sabado de 8 a 14hs. y de 16 a 20hs.</p>
+            </div>
+            
+        </div>
+       <div id="elementos-footer"> 
+        <h4>Datos del grupo</h4>
+        <p>Sersewitz, Guido Tomas | 42.951.948</p> 
+        <p>Pereyra, Ludmila Abril | 43.049.505</p> 
+       </div>
+       <div id="elementos-footer">
+        <h4>Seguinos en</h4>
+        <a href="https://es-la.facebook.com/UnlamOficial/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/unalm.oficial/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+       </div>
+      
+    </footer>
+</body>
+</html>

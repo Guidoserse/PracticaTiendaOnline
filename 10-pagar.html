@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagar-style.css">
+    <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
+    <link rel="shorcut icon" href="img/pagos-icon-head.svg">
+    
+    <title>Pagar</title>
+</head>
+<body>
+    
+    <section class="form-register">
+        
+        <h4>Pagar</h4>
+        <label class="label" for="tarjetas">Tarjetas Guardadas</label>
+        <select class="controls" name="provincias" id="tarjetas" required>
+            
+            <option value="disabled">-Seleccione una tarjeta-</option>
+            <option value="1">VISA</option>
+            <option value="2">Mastercard</option>
+            
+        </select>
+
+        <input class="checkbox" type="checkbox"  name="tarjeta" id="tarjeta">
+        <label class="label" for="tarjeta">Otra tarjeta</label><i class="fa-regular fa-credit-card"></i>
+        <br>
+                
+                <div class="desplegable">
+                 <label class="new-label" for="tarjeta-nueva">Número de Tarjeta</label>
+                 <input class="new-controls" type="number" name="tarjeta" id="tarjeta-nueva" placeholder="Ingrese su Número de tarjeta" required >
+				
+                 <label class="new-label" for="codigo-nuevo">Código</label>
+                 <input class="new-controls" type="number" name="codigo" id="codigo-nuevo" placeholder="Ingrese código de la tarjeta" required >
+				
+                 <label class="new-label" for="vencimiento-nuevo">Vencimiento</label>
+                 <input class="new-controls" type="date" name="vencimiento" id="vencimiento-nuevo" placeholder="Vencimiento" required >
+				
+                 <label class="new-label" for="nombre-nuevo">Nombre</label>
+                 <input class="new-controls" type="text" name="nombre" id="nombre-nuevo" placeholder="Ingrese Nombre del titular" required >
+                </div>
+                
+
+                <label class="label" for="localidad">Direcciones Guardadas</label>
+                <select class="controls" name="localidad" id="localidad" required>
+
+                    <option value="disabled">-Seleccione una dirección-</option>
+                    <option value="1">Microcentro</option>
+                    <option value="2">Haedo</option>
+    
+                </select>
+                
+                <br>
+
+                <input class="checkbox" type="checkbox"  name="direccion" id="direccion">
+                <label class="label" for="direccion">Otra dirección</label><i class="fa-sharp fa-solid fa-house"></i>
+    
+        
+        <a href="2-login.html"><input class="botons" type= "submit" value="Guardar"></a>
+
+        <a href="#"><input class="botonskip" type= "reset" value="X"></a>
+        
+
+    </section>
+
+
+</body>
+</html>

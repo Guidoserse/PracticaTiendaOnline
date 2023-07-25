@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagos-style.css">
+    <title>Métodos de pago</title>
+</head>
+<body>
+    <input type="checkbox" id="btn-modal">
+	<label for="btn-modal" class="boton">Métodos de pago</label>
+	<div class="modal">
+		<div class="contenedor">
+			<header>Métodos de pago</header>
+			<label for="btn-modal">X</label>
+			<div class="contenido">
+				<form action="">
+				<p class="campos">Alias</p>
+                <input class="controls" type="text" name="Alias" id="Alias" placeholder="Ingrese Alias" required autofocus>
+
+				<p class="campos">Número de Tarjeta</p>
+                <input class="controls" type="number" pattern="[0-9]{1,16}" name="tarjeta" id="tarjeta" placeholder="Ingrese su Número de tarjeta" required >
+				
+				<p class="campos">Código</p>
+                <input class="controls" type="number" name="codigo" id="codigo" placeholder="Ingrese código de la tarjeta" required>
+
+				<p class="campos">Vencimiento</p>
+                <input class="controls" type="date" name="vencimiento" id="vencimiento" placeholder="Vencimiento" required>
+
+				<p class="campos">Nombre del titular</p>
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre del titular" required >
+
+				<input class="boton-contenedor" type="submit" value="Guardar">
+				
+				<input class="boton-contenedor" type="reset" value="Borrar">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/direcciones-style.css">
+    <link rel="shorcut icon" href="img/direcciones-icon-head.svg">
+    <title>Mis direcciones</title>
+</head>
+<body>
+    <section class="form-register">
+        
+        <h4>Nueva Dirección</h4>
+        <label class="label" for="alias">Alias</label>
+        <input class="controls" type="text" name="alias" id="alias" placeholder="Ingrese su Alias" required autofocus>
+        <label class="label" for="provincia">Provincia</label>
+        <select class="controls" name="provincias" id="provincias" required>
+            
+            <option value="disabled">-Seleccione una Provincia-</option>
+            <option value="1">CABA</option>
+            <option value="2">GBA - Oeste</option>
+            <option value="3">GBA - Norte</option>
+            <option value="4">GBA - Sur</option>
+            <option value="5">Provincia de Buenos Aires</option>
+            <option value="6">Córdoba</option>
+            <option value="7">Santa Fe</option>
+            <option value="8">Entre Ríos</option>
+            <option value="9">Mendoza</option>
+            <option value="10">Tucumán</option>
+            <option value="11">Salta</option>
+            <option value="12">Misiones</option>
+            <option value="13">Chaco</option>
+            <option value="14">Corrientes</option>
+            <option value="15">Santiago del Estero</option>
+            <option value="16">San Juan</option>
+            <option value="17">Jujuy</option>
+            <option value="18">Río Negro</option>
+            <option value="19">Neuquén</option>
+            <option value="20">Formosa</option>
+            <option value="21">Chubut</option>
+            <option value="22">San Luis</option>
+            <option value="23">Catamarca</option>
+            <option value="24">La Rioja</option>
+            <option value="25">La Pampa</option>
+            <option value="26">Santa Cruz</option>
+            <option value="27">Tierra del Fuego, Antártida e Islas del Atlántico del Sur</option>
+            
+        </select>
+
+        <label class="label" for="localidad">Localidad</label>
+        <select class="controls" name="localidad" id="localidad" required>
+            
+            <option value="disabled">-Seleccione una localidad-</option>
+            <option value="1">Microcentro</option>
+            <option value="2">Haedo</option>
+            <option value="3">San Isidro</option>
+            <option value="4">Banfield</option>
+            <option value="5">La Plata</option>
+            <option value="6">Córdoba</option>
+            <option value="7">Santa Fe</option>
+            <option value="8">Paraná</option>
+            <option value="9">Mendoza</option>
+            <option value="10">San Miguel de Tucumán</option>
+            <option value="11">Salta</option>
+            <option value="12">Posadas</option>
+            <option value="13">Resistencia</option>
+            <option value="14">Corrientes</option>
+            <option value="15">Santiago del Estero</option>
+            <option value="16">San Juan</option>
+            <option value="17">San Salvador de Jujuy</option>
+            <option value="18">Río Negro</option>
+            <option value="19">Neuquén</option>
+            <option value="20">Formosa</option>
+            <option value="21">Chubut</option>
+            <option value="22">San Luis</option>
+            <option value="23">San Fernando del Valle de Catamarca</option>
+            <option value="24">La Rioja</option>
+            <option value="25">La Pampa</option>
+            <option value="26">Santa Cruz</option>
+            <option value="27">Ushuaia</option>
+            
+        </select>
+        
+        <label class="label" for="direccion">Dirección</label>
+        <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección" required>
+
+        <label class="label" for="telefono">Teléfono</label>
+        <input class="controls" type="tel" name="telefono" id="telefono" pattern="[0-9] {8,}" placeholder="Ingrese su teléfono" required>
+
+        <label class="label" for="piso">Piso</label>
+        <input class="small-controls" type="text" name="piso" id="piso" placeholder="Piso">
+
+        <label class="label" for="dto">Dto</label>
+        <input class="small-controls" type="text" name="dto" id="dto" placeholder="Dto">
+        
+        <a href="2-login.html"><input class="botons" type= "submit" value="Guardar"></a>
+        <a href="#"><input class="botonskip" type= "reset" value="X"></a>
+        
+        
+        
+
+    </section>
+</body>
+</html>

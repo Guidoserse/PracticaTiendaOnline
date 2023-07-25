@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagos2-style.css">
+    <link rel="shorcut icon" href="img/pagos-icon-head.svg">
+    <title>Métodos de pago</title>
+</head>
+<body>
+    <section class="form-register">
+        
+        <h4>Métodos de Pago</h4>
+        <label class="label" for="alias">Alias</label>
+        <input class="controls" type="text" name="alias" id="alias" placeholder="Ingrese su Alias" required autofocus>
+
+        <label class="label" for="tarjeta">Número de Tarjeta</label>
+        <input class="controls" type="number" pattern="[0-9]{1,16}" name="tarjeta" id="tarjeta" placeholder="Ingrese su Número de tarjeta" required >
+
+        <label class="label" for="codigo">Código</label>
+        <input class="controls" type="number" name="codigo" id="codigo" placeholder="Ingrese código de la tarjeta" required>
+
+        <label class="label" for="vencimiento">Vencimiento</label>
+        <input class="controls" type="date" name="vencimiento" id="vencimiento" placeholder="Vencimiento" required>
+
+        <label class="label" for="nombre">Nombre</label>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre del titular" required >
+
+        
+        <a href="2-login.html"><input class="botons" type= "submit" value="Guardar"></a>
+        <a href="#"><input class="botonskip" type= "reset" value="X"></a>
+        
+        
+        
+
+    </section>
+</body>
+</html>
